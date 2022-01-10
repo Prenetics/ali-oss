@@ -1,1 +1,1 @@
-export declare function lowercaseKeyHeader(headers: any): {};
+export declare function lowercaseKeyHeader(headers: string): {};

@@ -1,6 +1,6 @@
 import { isObject } from './isObject';
 
-export function lowercaseKeyHeader(headers) {
+export function lowercaseKeyHeader(headers: string) {
   const lowercaseHeader = {};
   if (isObject(headers)) {
     Object.keys(headers).forEach(key => {
